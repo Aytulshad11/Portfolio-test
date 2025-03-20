@@ -37,24 +37,24 @@ const Header = ({ isMenuOpen, toggleMenu, darkMode, toggleTheme }) => {
             >
               Resume
             </a>
-            <button
+            {/* <button
               onClick={toggleTheme}
               className="p-2 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-300"
               aria-label="Toggle theme"
             >
               {darkMode ? <Sun size={20} /> : <Moon size={20} />}
-            </button>
+            </button> */}
           </nav>
 
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center">
-            <button
+            {/* <button
               onClick={toggleTheme}
               className="p-2 mr-2 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-300"
               aria-label="Toggle theme"
             >
               {darkMode ? <Sun size={20} /> : <Moon size={20} />}
-            </button>
+            </button> */}
             <button
               type="button"
               className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"

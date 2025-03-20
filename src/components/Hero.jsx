@@ -56,7 +56,7 @@ const Hero = ({ darkMode }) => {
           <div className="md:w-1/2 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-700 shadow-xl">
               <img
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                src='https://api.deepai.org/job-view-file/db0a36a8-6a6c-4667-af95-36a74833d9e7/outputs/output.jpg'
                 alt="Jane Smith"
                 className="w-full h-full object-cover"
               />

@@ -14,16 +14,16 @@ function App() {
   const [darkMode, setDarkMode] = useState(true);
 
   // Check stored theme on first render
-  useEffect(() => {
-    const storedTheme = localStorage.getItem("theme");
-    if (storedTheme === "dark") {
-      setDarkMode(true);
-      document.documentElement.classList.add("dark");
-    } else {
-      setDarkMode(false);
-      document.documentElement.classList.remove("dark");
-    }
-  }, []);
+  // useEffect(() => {
+  //   const storedTheme = localStorage.getItem("theme");
+  //   if (storedTheme === "dark") {
+  //     setDarkMode(true);
+  //     document.documentElement.classList.add("dark");
+  //   } else {
+  //     setDarkMode(false);
+  //     document.documentElement.classList.remove("dark");
+  //   }
+  // }, []);
 
   // Update theme and store preference
   useEffect(() => {
@@ -38,7 +38,7 @@ function App() {
 
   const toggleTheme = () => {
     setDarkMode(prevMode => !prevMode);
-    console.log("Dark Mode:", darkMode); // Debugging log
+    console.log("Dark Mode:", !darkMode); // Log the new state after toggle
   };
   
 
