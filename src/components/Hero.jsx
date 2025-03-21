@@ -1,5 +1,5 @@
 import { Github, Linkedin, Mail, FileText } from 'lucide-react';
-
+import HeroImg from "../assets/output.jpg"
 const Hero = ({ darkMode }) => {
   return (
     <section className="pt-24 pb-16 md:pt-32 md:pb-24 bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900 transition-colors duration-300">
@@ -56,7 +56,7 @@ const Hero = ({ darkMode }) => {
           <div className="md:w-1/2 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-700 shadow-xl">
               <img
-                src='https://api.deepai.org/job-view-file/db0a36a8-6a6c-4667-af95-36a74833d9e7/outputs/output.jpg'
+                src={HeroImg}
                 alt="Jane Smith"
                 className="w-full h-full object-cover"
               />
